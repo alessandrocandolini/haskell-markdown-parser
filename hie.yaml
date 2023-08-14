@@ -1,0 +1,14 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "haskell-markdown-parser:lib"
+
+    - path: "./app/Main.hs"
+      component: "haskell-markdown-parser:exe:haskell-markdown-parser-exe"
+
+    - path: "./app/Paths_haskell-markdown-parser.hs"
+      component: "haskell-markdown-parser:exe:haskell-markdown-parser-exe"
+
+    - path: "./test"
+      component: "haskell-markdown-parser:test:haskell-markdown-parser-test"
+
